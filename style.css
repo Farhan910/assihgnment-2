@@ -1,0 +1,232 @@
+ /* --------------
+     regular-css 
+ -----------------*/
+body{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Spline Sans', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+  margin: 0 100px;
+}
+
+/* first-part-start */
+
+.first-part img{
+  
+    border: 2px solid lightgray;
+    box-shadow: 1px 1px 10px gray;
+    border-radius: 50%;
+   margin-right: 90px;
+    
+  
+}
+.first-part h1{
+    font-size: 60px;
+    margin-bottom: 0;
+    line-height:75px;
+    
+}
+.first-part{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+.first-part a{
+    background-color: #B762C1;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 40px;
+    color: white;
+    
+}
+.first-part p{
+   display: block;
+   margin: 30px 0;
+}
+.first-part i{
+    margin-left: 7px;
+}
+/* first-part-end */
+.container-1{
+    margin: 100px 190px ;
+}
+
+/* second-part-logo */
+.company-logo{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid lightgray;
+    padding: 30px 80px;
+    border-bottom: 2px solid lightgray
+    
+}
+.company-logo:hover{
+    background-color: lightgray;
+    transition: 2s ease;
+    border-radius: 10px;
+    
+
+}
+
+.popular-collection h3{
+    text-align: center;
+    margin: 200px 0 60px;
+    font-weight: 700;
+    font-size: 30px;
+}
+/* main-part */
+.main-part i{
+    font-size: 10px;
+    
+}
+.main-part span{
+    margin-left: 5px;
+}
+.main-part h3{
+ font-size: 30px;
+ margin: 10px 0;
+ }
+ .main-part h4{
+     font-size: 20px;
+     margin: 10px 0;
+ }
+
+.image-text {
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-row-gap: 3em;
+   grid-column-gap: 1em;
+   
+   
+}
+.image-text p{
+    line-height: 23px;
+}
+.color-1{
+ color: rgb(245, 187, 41);
+}
+.color-2{
+    color:lightgray;
+}
+.main{
+    
+    padding: 15px;
+    width: 300px;
+   border-radius: 5px;
+   box-shadow: 2px 2px  40px lightgray;
+   
+}
+.main:hover{
+    box-shadow: 10px 10px 60px 20px lightgray;
+    transition: 1s ease;
+
+}
+.single-link a {
+    text-decoration: none;
+    display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   margin-right: 30px;
+   margin-top: 30px;
+   padding: 10px;
+   color: #B762C1;
+    
+}
+
+/* ---------extra-part---------- */
+
+.single-link a i{
+    margin-left: 15px;
+}
+
+
+.extra-part h1{
+    margin-bottom: 100px;
+}
+.extra-part p{
+    height: 250px;
+    width: 300px;
+   box-shadow: 1px 1px 30px lightgray;
+    background-color: rgb(204, 215, 226);
+    padding: 50px 20px 0;
+    border-radius: 10px;
+    margin-left: 25px;
+    border-left: 7px solid #B762C1;
+   
+}
+.extra-part a{
+    text-decoration: none;
+   color:white ;
+   background-color: #B762C1;
+   margin: 10px 20px;
+   display:block;
+   width: 150px;
+   padding: 5px;
+   border-radius: 3px;
+   margin-left: 160px;
+
+}
+.extra-part i{
+    margin-left: 10px;
+}
+.extra-part p:hover{
+ 
+  transition: 1s ease-in-out;
+  border-left: 7px solid pink;
+  box-shadow: 1px 1px 30px 10px  rgb(127, 211, 245);
+  border-radius: 50px;
+  
+}
+
+.extra-part-1 h1{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    border-bottom: 1px  solid lightgrey;
+}
+.extra-part{
+    
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.extra-part img{
+    width: 500px;
+}
+.extra-part img:hover{
+    border-radius: 50px;
+    transition: 01s ease-in;
+}
+
+/* -----------footer------------- */
+.last-part{
+    text-align: center;
+    background-color:rgb(5, 5, 68);
+    color: oldlace;
+    padding: 10px;
+    
+}
+.last-part a{
+    color: white;
+    margin-left: 10px;
+    background-color: rgb(61, 61, 134);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px ;
+    
+}
+
